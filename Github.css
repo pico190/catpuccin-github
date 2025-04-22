@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+pre *, pre, .cm-editor *, code, code * {
+  font-family: JetBrains Mono, jetbrains mono, monospace;
+}
+.application-main {
+  background-color: #11111b;
+}
+.feed-item-content, .dashboard-changelog, [aria-label="Explore repositories"] {
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 12px;
+}
+.dashboard-changelog, [aria-label="Explore repositories"] {
+  padding: 24px;
+}
+.dashboard-break-word.comment-body, .color-bg-subtle.flex-justify-between {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, .06)
+}
+.application-main * {
+  --AppHeader-bg: transparent;
+  --bgColor-inset: #11111b;
+}
+.container-xl > .border-bottom {
+  display: none;
+}
+.color-border-muted, .borderColor-muted {
+  border: none!important;
+}
+.clearfix.container-xl.px-md-4.px-lg-5.px-3::after {
+  display: none;
+}
+.clearfix.container-xl.px-md-4.px-lg-5.px-3 {
+  background-color: #181825;
+  border-radius: 12px;
+}
+.react-directory-row:hover {
+  background-color: #151520;
+}
+.feed-left-sidebar {
+  border-right: none;
+  background-color: transparent;
+}
+a[href]:not(.Button):hover {
+  color: #89b4fa;
+}
+* {
+  --color-text-white: #89b4fa!important;
+  --AppHeader-bg: #11111b;
+  --bgColor-muted: #11111b;
+  --borderColor-default: rgba(255, 255, 255, .05);
+  --bgColor-default: #181825;
+  --button-default-bgColor-hover: #45475a;
+  --button-default-bgColor-rest: #313244;
+  --button-default-borderColor-rest: transparent;
+  --control-borderColor-rest: rgba(255, 255, 255, .05);
+  --shadow-inset: transparent;
+  --underlineNav-borderColor-active: #b4befe;
+  --button-primary-bgColor-rest: #416d3e;
+  --button-default-bgColor-disabled: #181825;
+  --button-primary-bgColor-hover: #598b55;
+  --buttonCounter-default-bgColor-rest: transparent;
+  --overlay-bgColor: #181825;
+  --control-bgColor-disabled: var(--bgColor-muted);
+
+  --codeMirror-syntax-fgColor-comment: #9399b2;
+  --codeMirror-syntax-fgColor-constant: #fab387;
+  --codeMirror-syntax-fgColor-entity: #89b4fa;
+  --codeMirror-syntax-fgColor-keyword: #cba6f7;
+  --codeMirror-syntax-fgColor-storage: #cba6f7;
+  --codeMirror-syntax-fgColor-string: #a6e3a1;
+  --codeMirror-syntax-fgColor-support: #89b4fa;
+  --codeMirror-syntax-fgColor-variable: #cdd6f4;
+
+  --color-prettylights-syntax-comment: #9198a1;
+  --color-prettylights-syntax-constant: #fab387;
+  --color-prettylights-syntax-entity: #89b4fa;
+  --color-prettylights-syntax-entity-tag: #89b4fa;
+  --color-prettylights-syntax-keyword: #cba6f7;
+  --color-prettylights-syntax-string: #a6e3a1;
+  --color-prettylights-syntax-variable: #cdd6f4;
+  --color-prettylights-syntax-string-regexp: #f38ba8;
+  --fgColor-accent: #b4befe;
+  --codeMirror-bgColor: #181825;
+  --codeMirror-gutters-bgColor: #181825;
+  --codeMirror-lines-bgColor: #181825;
+  --borderColor-accent-emphasis: #b4befe;
+  --controlTrack-bgColor-rest: #181825;
+  --controlTrack-borderColor-rest: transparent;
+  --controlKnob-bgColor-rest: #1e1e2e;
+  --controlKnob-borderColor-rest: transparent;
+  --controlTrack-bgColor-hover: #1e1e2e;
+  --controlTrack-bgColor-active: #1e1e2e;
+}
+body > .logged-in {
+  background-color: var(--AppHeader-bg);
+}
+button, select, textarea, input {
+  border: none;
+}
+[data-language="json"] * {
+  --codeMirror-syntax-fgColor-constant: #89b4fa;
+}
+.prc-Button-ButtonBase-c50BI[data-variant="primary"] {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+.prc-Button-ButtonBase-c50BI[data-variant="primary"]::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #a6e3a1;
+  filter: brightness(0.5) contrast(1.4);
+  transition-duration: .1s;
+  z-index: -1;
+}
+footer.footer.pt-8.pb-6.f6.color-fg-muted.p-responsive {
+  background-color: transparent;
+  padding: 14px 0px;
+}
+footer .sr-only {
+  display: none;
+}
+.prc-Button-ButtonBase-c50BI[data-variant="primary"]:hover::after {
+  filter: brightness(0.6) contrast(1.4);
+
+}
+
+.BorderGrid-cell {
+  border: none;
+}
+
+* {
+  box-shadow: none;
+}
